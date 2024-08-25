@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/****************** component famous *************/
+.famous-mg-btm{
+    margin-bottom: 90px;
+}
+
+/****************** component navbar ******************/
+
+.myheader{
+    background: linear-gradient(90deg, #000000 60%, #222831 100%);
+}
+
+/************************** page home **********************/
+.bg-home{
+    background-color: #000000;
+}
+
+/*********************************** Page Login && Singin******************************/
+.titre-form{
+    font-weight: bold;
+    font-size: 26px;
+  }
+  .titre-form-div{
+  margin-bottom: 30px;
+  }
+  .container-login{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  form{
+    width: 100%;
+  }
+  .container-form-login{
+    display: flex;
+    align-items: center;
+    padding-top: auto;
+    width: 50%;
+  }
+  .div-logo-form{
+    display: flex;
+    justify-content: center;
+    height: 512px;
+  }
+  img{
+    object-fit: cover;
+  }
+  
+  @media (max-width:750px) {
+    .container-login {
+      flex-direction: column;
+    }
+    .container-form-login{
+      padding-top: 0px;
+      width: 100%;
+    }
+    .div-logo-form{
+       margin-bottom: 30px;
+      }
+  }
+
+  /*************************************** Developpeur 1 *************************************/
+
+  /********************************* sidebar component **********************************/
+
+.background-aside, .sidebar-class {
+    background-color: #212529;
+  }
+  
+  .sidebar-class {
+    min-height: calc(100vh - 64px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .color-text-aside {
+    color: white;
+  }
+  
+  .container-sidebar-dash {
+    display: flex;
+    flex-direction: row; /* Pour que la sidebar et le formulaire soient côte à côte */
+  }
+   
+/***************************************** addMeal ****************************************/
+/* component dashboard */
+.dashboard-class{
+    width: 100%;
+    height: 100%;
+    max-height: 560px;
+    overflow-y: auto;
+  }
+  
+  /* component formulaire */
+  .form-class{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+  }
+  
+  .titre-formulaire{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  .btn-form{
+    margin-top:25px;
+    font-weight: medium;
+  }
+
+  /************* sidebar ***********/
+  .div-ul{
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  /************************ dashboard commande *****************/
+  .center-pending{
+    display: flex;
+    justify-content: center;
+  }
